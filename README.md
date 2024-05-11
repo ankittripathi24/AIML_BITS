@@ -30,6 +30,11 @@ Vader:
 
 What format of CSV file with data is expected:
 
+## Model creation
+Model Creation includes:
+1) Data Pre-processing
+2) Data Cleaning
+3) Model Selection (on the basis of AUC score select the best model)
 
 ## Usage
 
@@ -48,7 +53,7 @@ Instructions on how to use the project, for example:
 
 4. Start the Streamlit app:
     ```
-    streamlit run your_streamlit_app.py
+    streamlit run pySentimentAnalysis.py
     ```
 
 ## DAG
